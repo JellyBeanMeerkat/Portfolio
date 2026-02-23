@@ -22,7 +22,10 @@ const Portfolio = () => {
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">Designing a Hotel Booking System</h3>
             <p className="text-black mb-4">A responsive hotel booking platform focused on a seamless reservation experience.</p>
-            <button className="flex items-center gap-2 text-black font-bold hover:opacity-70 transition-opacity">
+            <button 
+              onClick={() => navigate('/case-study/hotel-booking')}
+              className="flex items-center gap-2 text-black font-bold hover:opacity-70 transition-opacity"
+            >
               View Case Study
               <div className="w-6 h-6 rounded-full border-2 border-black flex items-center justify-center">
                 <ArrowRight className="w-4 h-4" />
