@@ -80,14 +80,13 @@ const Home = () => {
             <div className="relative w-96 h-[500px]">
               {/* Arch Border */}
               <div className="absolute inset-0 rounded-t-full border-2 border-black overflow-hidden bg-white">
-                {/* Image from original screenshot - cropped to show just the person */}
+                {/* Professional portrait */}
                 <img
-                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/h1je79l5_image_2026-02-23_221942584.png"
-                  alt="Professional portrait"
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/je82kef0_Sharisse_PictureDay_Tobi%20Sobowale_www.shobolondon.com%205%5B2334%5D.jpg"
+                  alt="Sharisse Cole - Professional portrait"
                   className="w-full h-full object-cover"
                   style={{ 
-                    objectPosition: '70% 45%',
-                    transform: 'scale(1.8)'
+                    objectPosition: 'center 20%'
                   }}
                 />
               </div>
