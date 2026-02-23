@@ -70,7 +70,7 @@ const Header = () => {
           >
             <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-gray-400"></div>
             <div className="relative w-12 h-12 rounded-xl flex items-center justify-center bg-blue-600 border-2 border-gray-400">
-              <Linkedin className="w-6 h-6 text-white" fill="white" />
+              <span className="text-white text-lg font-serif font-semibold">in</span>
             </div>
           </a>
           <a
@@ -82,12 +82,6 @@ const Header = () => {
               <AtSign className="w-6 h-6 text-black" />
             </div>
           </a>
-          <div className="relative">
-            <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-gray-400"></div>
-            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center bg-white border-2 border-gray-400">
-              <Square className="w-6 h-6 text-gray-400" />
-            </div>
-          </div>
         </div>
       </div>
       <div className="w-full h-0.5 bg-black"></div>
