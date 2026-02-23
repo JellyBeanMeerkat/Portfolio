@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Linkedin, AtSign } from 'lucide-react';
+import { Linkedin, AtSign, Square } from 'lucide-react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -22,8 +22,8 @@ const Header = () => {
             <li>
               <Link
                 to="/"
-                className={`text-black no-underline text-base font-medium hover:opacity-70 transition-opacity ${
-                  isActive('/') ? 'font-bold' : ''
+                className={`text-gray-600 no-underline text-base font-medium hover:text-black transition-colors ${
+                  isActive('/') ? 'text-black font-bold' : ''
                 }`}
               >
                 Home
@@ -31,19 +31,9 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/about"
-                className={`text-black no-underline text-base font-medium hover:opacity-70 transition-opacity ${
-                  isActive('/about') ? 'font-bold' : ''
-                }`}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/portfolio"
-                className={`text-black no-underline text-base font-medium hover:opacity-70 transition-opacity ${
-                  isActive('/portfolio') ? 'font-bold' : ''
+                className={`text-gray-600 no-underline text-base font-medium hover:text-black transition-colors ${
+                  isActive('/portfolio') ? 'text-black font-bold' : ''
                 }`}
               >
                 Portfolio
@@ -51,9 +41,19 @@ const Header = () => {
             </li>
             <li>
               <Link
+                to="/about"
+                className={`text-gray-600 no-underline text-base font-medium hover:text-black transition-colors ${
+                  isActive('/about') ? 'text-black font-bold' : ''
+                }`}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/contact"
-                className={`text-black no-underline text-base font-medium hover:opacity-70 transition-opacity ${
-                  isActive('/contact') ? 'font-bold' : ''
+                className={`text-gray-600 no-underline text-base font-medium hover:text-black transition-colors ${
+                  isActive('/contact') ? 'text-black font-bold' : ''
                 }`}
               >
                 Contact
@@ -68,20 +68,26 @@ const Header = () => {
             rel="noopener noreferrer"
             className="relative"
           >
-            <div className="absolute top-1 left-1 w-10 h-10 rounded-lg" style={{ backgroundColor: '#E3E3FF' }}></div>
-            <div className="relative w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#E3E3FF' }}>
-              <Linkedin className="w-5 h-5 text-black" />
+            <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-gray-400"></div>
+            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center bg-blue-600 border-2 border-gray-400">
+              <Linkedin className="w-6 h-6 text-white" fill="white" />
             </div>
           </a>
           <a
             href="mailto:contact@example.com"
             className="relative"
           >
-            <div className="absolute top-1 left-1 w-10 h-10 rounded-lg" style={{ backgroundColor: '#E3E3FF' }}></div>
-            <div className="relative w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#E3E3FF' }}>
-              <AtSign className="w-5 h-5 text-black" />
+            <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-gray-400"></div>
+            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center bg-white border-2 border-gray-400">
+              <AtSign className="w-6 h-6 text-black" />
             </div>
           </a>
+          <div className="relative">
+            <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-gray-400"></div>
+            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center bg-white border-2 border-gray-400">
+              <Square className="w-6 h-6 text-gray-400" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="w-full h-0.5 bg-black"></div>
