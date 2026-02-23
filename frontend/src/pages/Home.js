@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Sparkles } from 'lucide-react';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -7,55 +8,73 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: '#E3E3FF' }}>
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center px-8 py-16">
-        <div className="max-w-7xl mx-auto w-full flex items-center gap-12">
-          {/* 60% Section */}
-          <div className="flex-[0.6] flex flex-col items-start">
-            <h1 className="text-5xl font-bold text-black mb-8 leading-tight">
-              Hello, my name is test;<br />
-              <span className="block mt-2">UX researcher</span>
-              <span className="block">UX designer</span>
+      <section className="min-h-screen flex items-center px-12 py-16 relative">
+        <div className="max-w-7xl mx-auto w-full flex items-center gap-16">
+          {/* Left Section */}
+          <div className="flex-1 flex flex-col items-start">
+            {/* HELLO! Badge */}
+            <div className="flex items-center gap-2 px-5 py-2 rounded-full border-2 border-gray-400 bg-white mb-8">
+              <div className="w-2 h-2 bg-black rounded-full"></div>
+              <span className="text-sm font-bold text-black">HELLO!</span>
+            </div>
+
+            {/* Main Heading */}
+            <h1 className="text-6xl font-bold text-black mb-2 leading-tight">
+              I'm Sharisse Cole;
             </h1>
+            <p className="text-5xl italic text-black mb-1">UX Researcher</p>
+            <p className="text-5xl italic text-black mb-8">UX Designer</p>
+
+            {/* Subtitle */}
+            <p className="text-lg text-gray-600 mb-12 max-w-md">
+              Based in the Midlands and happy to relocate throughout the UK and abroad
+            </p>
+
+            {/* Buttons */}
             <div className="flex gap-4">
-              {/* See My Work Button with Shadow */}
+              {/* See My Work Button */}
               <button
                 onClick={() => navigate('/portfolio')}
-                className="relative bg-white text-black border-2 border-black px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors"
+                className="relative bg-white text-black border-2 border-gray-400 px-8 py-3 rounded-2xl font-medium hover:bg-gray-50 transition-colors"
               >
-                <div
-                  className="absolute rounded-lg border-2 border-black"
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    top: '6px',
-                    left: '6px',
-                    zIndex: -1,
-                    backgroundColor: 'white'
-                  }}
-                ></div>
                 See My Work
               </button>
               {/* Contact Me Button */}
               <button
                 onClick={() => navigate('/contact')}
-                className="bg-white text-black border-2 border-black px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors"
+                className="relative bg-white text-black border-2 border-gray-400 px-8 py-3 rounded-2xl font-medium hover:bg-gray-50 transition-colors"
               >
-                Contact me
+                Contact Me
               </button>
             </div>
           </div>
 
-          {/* 40% Section - Arch */}
-          <div className="flex-[0.4] flex items-center justify-center">
-            <div className="relative w-64 h-64">
-              <svg width="100%" height="100%" viewBox="0 0 256 256" className="transform">
-                <path
-                  d="M 30 230 Q 30 50 128 50 Q 226 50 226 230"
-                  fill="none"
-                  stroke="black"
-                  strokeWidth="3"
+          {/* Right Section - Photo with Arch Frame */}
+          <div className="flex-1 flex items-center justify-center relative">
+            {/* Sparkle Decoration */}
+            <div className="absolute top-8 right-12 z-10">
+              <Sparkles className="w-12 h-12 text-black" strokeWidth={1.5} />
+            </div>
+
+            {/* Arch Frame with Image */}
+            <div className="relative w-96 h-[500px]">
+              {/* Arch Border */}
+              <div className="absolute inset-0 rounded-t-full border-2 border-black overflow-hidden bg-white">
+                {/* Placeholder Image - Replace with actual image */}
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop"
+                  alt="Professional portrait"
+                  className="w-full h-full object-cover"
                 />
-              </svg>
+              </div>
+
+              {/* Decorative Lines at Bottom Right */}
+              <div className="absolute -bottom-8 -right-8">
+                <svg width="100" height="100" viewBox="0 0 100 100">
+                  <line x1="20" y1="80" x2="80" y2="80" stroke="black" strokeWidth="2" />
+                  <line x1="30" y1="90" x2="70" y2="90" stroke="black" strokeWidth="2" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
