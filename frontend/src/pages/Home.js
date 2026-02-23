@@ -19,7 +19,7 @@ const Home = () => {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-6xl font-bold text-black mb-4 leading-tight">
+            <h1 className="text-6xl font-bold text-black mb-4 leading-tight" style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}>
               I'm Sharisse Cole;
             </h1>
             <p className="text-5xl italic text-black mb-1">UX Researcher</p>
