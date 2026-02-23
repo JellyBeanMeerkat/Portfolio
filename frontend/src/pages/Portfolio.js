@@ -1,0 +1,46 @@
+import React from 'react';
+import { ArrowRight } from 'lucide-react';
+
+const Portfolio = () => {
+  return (
+    <div style={{ backgroundColor: '#E3E3FF' }} className="min-h-screen py-16 px-8">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-bold text-black mb-12">Check out some of my work</h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Project 1 */}
+          <div className="flex flex-col">
+            <div className="bg-white rounded-2xl w-full aspect-square mb-4 flex items-center justify-center border-2 border-black">
+              <div className="text-center p-8">
+                <div className="text-6xl mb-4">🏨</div>
+                <p className="text-gray-600">Hotel Booking System Design</p>
+              </div>
+            </div>
+            <h3 className="text-2xl font-bold text-black mb-2">Designing a Hotel Booking System</h3>
+            <p className="text-black mb-4">A responsive hotel booking platform focused on a seamless reservation experience.</p>
+            <button className="flex items-center gap-2 text-black font-bold hover:opacity-70 transition-opacity">
+              View Case Study
+              <div className="w-6 h-6 rounded-full border-2 border-black flex items-center justify-center">
+                <ArrowRight className="w-4 h-4" />
+              </div>
+            </button>
+          </div>
+
+          {/* Project 2 - Coming Soon */}
+          <div className="flex flex-col">
+            <div className="bg-white rounded-2xl w-full aspect-square mb-4 flex items-center justify-center border-2 border-black">
+              <div className="text-center p-8">
+                <div className="text-6xl mb-4">⏳</div>
+                <p className="text-gray-600">More Projects Coming Soon</p>
+              </div>
+            </div>
+            <h3 className="text-2xl font-bold text-black mb-2">Coming Soon</h3>
+            <p className="text-black mb-4">As we all know, UX takes time!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;
