@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Building2, Clock } from 'lucide-react';
 
 const Portfolio = () => {
+  const navigate = useNavigate();
+
   return (
     <div style={{ backgroundColor: '#E3E3FF' }} className="min-h-screen py-16 px-8">
       <div className="max-w-7xl mx-auto">
