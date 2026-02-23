@@ -13,13 +13,13 @@ const Home = () => {
           {/* Left Section */}
           <div className="flex-1 flex flex-col items-start">
             {/* HELLO! Badge */}
-            <div className="flex items-center gap-2 px-5 py-2 rounded-full border-2 border-gray-400 bg-white mb-8">
-              <div className="w-2 h-2 bg-black rounded-full"></div>
+            <div className="flex items-center gap-2 px-5 py-2 rounded-full border-2 border-gray-400 mb-8" style={{ backgroundColor: '#E3F2FF' }}>
+              <span className="text-black text-lg font-bold">*</span>
               <span className="text-sm font-bold text-black">HELLO!</span>
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-6xl font-bold text-black mb-2 leading-tight">
+            <h1 className="text-6xl font-bold text-black mb-4 leading-tight">
               I'm Sharisse Cole;
             </h1>
             <p className="text-5xl italic text-black mb-1">UX Researcher</p>
@@ -32,18 +32,38 @@ const Home = () => {
 
             {/* Buttons */}
             <div className="flex gap-4">
-              {/* See My Work Button */}
+              {/* See My Work Button with Shadow */}
               <button
                 onClick={() => navigate('/portfolio')}
-                className="relative bg-white text-black border-2 border-gray-400 px-8 py-3 rounded-2xl font-medium hover:bg-gray-50 transition-colors"
+                className="relative bg-white text-black border-[3px] border-black px-8 py-3 rounded-2xl font-medium hover:bg-gray-50 transition-colors"
               >
+                <div
+                  className="absolute rounded-2xl border-[3px] border-black bg-white"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    top: '6px',
+                    left: '-6px',
+                    zIndex: -1
+                  }}
+                ></div>
                 See My Work
               </button>
-              {/* Contact Me Button */}
+              {/* Contact Me Button with Shadow */}
               <button
                 onClick={() => navigate('/contact')}
-                className="relative bg-white text-black border-2 border-gray-400 px-8 py-3 rounded-2xl font-medium hover:bg-gray-50 transition-colors"
+                className="relative bg-white text-black border-[3px] border-black px-8 py-3 rounded-2xl font-medium hover:bg-gray-50 transition-colors"
               >
+                <div
+                  className="absolute rounded-2xl border-[3px] border-black bg-white"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    top: '6px',
+                    left: '-6px',
+                    zIndex: -1
+                  }}
+                ></div>
                 Contact Me
               </button>
             </div>
