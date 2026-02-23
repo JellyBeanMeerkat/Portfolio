@@ -8,7 +8,7 @@ const About = () => {
         
         <div className="bg-white rounded-2xl p-8 border-2 border-black">
           <p className="text-lg text-black mb-6">
-            Hello! I'm a passionate UX researcher and designer dedicated to creating intuitive and delightful user experiences.
+            Hello! I'm a passionate UX Researcher and Designer dedicated to creating intuitive and delightful user experiences.
           </p>
           
           <h3 className="text-2xl font-bold text-black mb-4 mt-8">Skills</h3>
@@ -33,7 +33,7 @@ const About = () => {
 
           <h3 className="text-2xl font-bold text-black mb-4 mt-8">Tools</h3>
           <div className="flex flex-wrap gap-3">
-            {['Figma', 'Sketch', 'Adobe XD', 'InVision', 'Miro'].map((tool) => (
+            {['Figma', 'FigJam', 'Miro', 'TypeForm'].map((tool) => (
               <span
                 key={tool}
                 className="px-4 py-2 rounded-lg border-2 border-black bg-white text-black font-medium"
