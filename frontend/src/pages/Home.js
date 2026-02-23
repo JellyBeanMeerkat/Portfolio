@@ -80,11 +80,12 @@ const Home = () => {
             <div className="relative w-96 h-[500px]">
               {/* Arch Border */}
               <div className="absolute inset-0 rounded-t-full border-2 border-black overflow-hidden bg-white">
-                {/* Placeholder Image - Replace with actual image */}
+                {/* Image from original screenshot */}
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop"
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/h1je79l5_image_2026-02-23_221942584.png"
                   alt="Professional portrait"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
+                  style={{ objectPosition: '65% 20%' }}
                 />
               </div>
 
