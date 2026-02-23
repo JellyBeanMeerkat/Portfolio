@@ -12,7 +12,7 @@ const Portfolio = () => {
           <div className="flex flex-col">
             <div className="bg-white rounded-2xl w-full aspect-square mb-4 flex items-center justify-center border-2 border-black">
               <div className="text-center p-8">
-                <div className="text-6xl mb-4">🏨</div>
+                <Building2 className="w-24 h-24 mx-auto mb-4 text-black" strokeWidth={1.5} />
                 <p className="text-gray-600">Hotel Booking System Design</p>
               </div>
             </div>
