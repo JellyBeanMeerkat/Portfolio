@@ -7,14 +7,15 @@ const Portfolio = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-black mb-12">Check out some of my work</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Project 1 */}
           <div className="flex flex-col">
-            <div className="bg-white rounded-2xl w-full aspect-square mb-4 flex items-center justify-center border-2 border-black">
-              <div className="text-center p-8">
-                <Building2 className="w-24 h-24 mx-auto mb-4 text-black" strokeWidth={1.5} />
-                <p className="text-gray-600">Hotel Booking System Design</p>
-              </div>
+            <div className="bg-white rounded-2xl w-full h-80 mb-4 flex items-center justify-center border-2 border-black overflow-hidden">
+              <img
+                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/716unhww_page.JPG"
+                alt="Hotel Booking System Design"
+                className="w-full h-full object-cover"
+              />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">Designing a Hotel Booking System</h3>
             <p className="text-black mb-4">A responsive hotel booking platform focused on a seamless reservation experience.</p>
@@ -28,7 +29,7 @@ const Portfolio = () => {
 
           {/* Project 2 - Coming Soon */}
           <div className="flex flex-col">
-            <div className="bg-white rounded-2xl w-full aspect-square mb-4 flex items-center justify-center border-2 border-black">
+            <div className="bg-white rounded-2xl w-full h-80 mb-4 flex items-center justify-center border-2 border-black">
               <div className="text-center p-8">
                 <Clock className="w-24 h-24 mx-auto mb-4 text-black" strokeWidth={1.5} />
                 <p className="text-gray-600">More Projects Coming Soon</p>
