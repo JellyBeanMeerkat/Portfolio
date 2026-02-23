@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Building2, Clock } from 'lucide-react';
 
 const Portfolio = () => {
   return (
