@@ -407,9 +407,15 @@ const CaseStudy = () => {
             
             {/* View Prototype Button */}
             <div className="flex justify-center">
-              <button className="text-white px-12 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity" style={{ backgroundColor: '#ff7777' }}>
+              <a 
+                href="https://www.figma.com/proto/PK5oEwPVnsqPeKcWra6n3V/SharisseCole_Portfolio_Prototype?node-id=57-1043&t=kXWpP9m2v5rhsZho-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=57%3A1043&show-proto-sidebar=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white px-12 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity"
+                style={{ backgroundColor: '#ff7777' }}
+              >
                 View Prototype
-              </button>
+              </a>
             </div>
           </div>
         </section>
