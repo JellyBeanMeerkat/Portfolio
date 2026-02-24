@@ -235,31 +235,36 @@ const CaseStudy = () => {
               </p>
             </div>
 
-            {/* Usability Testing Screenshots */}
-            <div className="grid grid-cols-2 gap-4 mb-4">
-              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
-                <img
-                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
-                  alt="Agoda Usability Testing Screenshot"
-                  className="w-full h-full object-contain"
-                  loading="eager"
-                  style={{ imageRendering: 'high-quality' }}
-                />
-              </div>
-              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
-                <img
-                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
-                  alt="Traveloka Usability Testing Screenshot"
-                  className="w-full h-full object-contain"
-                  loading="eager"
-                  style={{ imageRendering: 'high-quality' }}
-                />
-              </div>
+            {/* Usability Testing Screenshot 1 - Agoda */}
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4">
+              <img
+                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
+                alt="Agoda Usability Testing Screenshot"
+                className="w-full h-auto"
+                loading="eager"
+                style={{ imageRendering: 'high-quality' }}
+              />
             </div>
 
-            {/* Hyperlink */}
+            {/* Hyperlink for Agoda */}
+            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity mb-6 block" style={{ fontSize: '18px' }}>
+              Watch Usability Test for Agoda.com
+            </a>
+
+            {/* Usability Testing Screenshot 2 - Traveloka */}
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4">
+              <img
+                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
+                alt="Traveloka Usability Testing Screenshot"
+                className="w-full h-auto"
+                loading="eager"
+                style={{ imageRendering: 'high-quality' }}
+              />
+            </div>
+
+            {/* Hyperlink for Traveloka */}
             <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px' }}>
-              Watch Usability Interview
+              Watch Test Interview for Traveloka.com
             </a>
           </div>
         </section>
