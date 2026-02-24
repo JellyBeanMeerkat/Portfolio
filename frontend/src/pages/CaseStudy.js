@@ -111,6 +111,22 @@ const CaseStudy = () => {
                 </iframe>
               </div>
             </div>
+
+            {/* Competitive Benchmarking Results */}
+            <div className="mt-8">
+              <h3 className="text-2xl font-bold text-black mb-4">Competitive Benchmarking Results</h3>
+              <div className="bg-white rounded-2xl p-8 border-2 border-black">
+                <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+                  All 3 websites that I have benchmarked contained the following features which I will be using for my own booking system:
+                </p>
+                <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
+                  <li>Booking panel at the top of the page with user information to remind user at every step</li>
+                  <li>An obvious search button</li>
+                  <li>Filters so the user can customize their stay</li>
+                  <li>Map version of the results</li>
+                </ol>
+              </div>
+            </div>
           </div>
 
           {/* Divider */}
