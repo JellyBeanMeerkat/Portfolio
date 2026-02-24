@@ -6,7 +6,7 @@ const About = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-black mb-8">About Me</h2>
         
-        <div className="bg-white rounded-2xl p-8 border-2 border-black">
+        <div className="bg-white rounded-2xl p-8 border-2 border-black relative overflow-visible">
           <p className="text-lg text-black mb-6">
             Hello! I'm a passionate UX Researcher and Designer dedicated to creating intuitive and delightful user experiences.
           </p>
@@ -32,7 +32,7 @@ const About = () => {
           </div>
 
           <h3 className="text-2xl font-bold text-black mb-4 mt-8">Tools</h3>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 mb-8">
             {['Figma', 'FigJam', 'Miro', 'TypeForm'].map((tool) => (
               <span
                 key={tool}
@@ -41,6 +41,15 @@ const About = () => {
                 {tool}
               </span>
             ))}
+          </div>
+
+          {/* Presenting Figure - Bottom Right */}
+          <div className="absolute -bottom-2 -right-2 w-48 h-48 pointer-events-none">
+            <img
+              src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/p6ej9v3c_Tada%20Me.JPG"
+              alt="Presenting"
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </div>
