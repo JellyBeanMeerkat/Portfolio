@@ -91,8 +91,8 @@ const CaseStudy = () => {
             </div>
 
             {/* Embedded PowerPoint Presentation with Arrow */}
-            <div className="flex items-center gap-1">
-              {/* PowerPoint Viewer - Left Aligned */}
+            <div className="flex items-center gap-1" style={{ marginLeft: '15%' }}>
+              {/* PowerPoint Viewer - Moved Right */}
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
                 <iframe
                   src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/tcjg98vt_Sharisse%20Cole_Benchmarking.pptx&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
