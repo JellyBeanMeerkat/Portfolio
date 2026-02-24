@@ -276,13 +276,13 @@ const CaseStudy = () => {
               Using the data from the aforementioned research methods, I designed a streamlined booking experience that prioritizes transparency, ease of use, and visual appeal.
             </p>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
-              I drew each screen state using pen and paper then scanned them into Figma{' '}
+              I drew each screen state using pen and paper then scanned them into Figma.{' '}
               <a href="#" className="font-bold underline hover:opacity-70 transition-opacity">
                 See Interaction Design
               </a>
             </p>
             <p className="text-lg text-black mb-6" style={{ textAlign: 'justify' }}>
-              Once I was happy with the path, I created a working prototype
+              Once I was satisfied the path followed the user's mental mode, I created a working prototype.
             </p>
             
             {/* View Prototype Button */}
