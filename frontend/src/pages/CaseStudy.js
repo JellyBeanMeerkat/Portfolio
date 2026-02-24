@@ -91,8 +91,8 @@ const CaseStudy = () => {
             </div>
 
             {/* Embedded PowerPoint Presentation with Arrow */}
-            <div className="flex items-center gap-8 justify-center">
-              {/* PowerPoint Viewer */}
+            <div className="flex items-center gap-8">
+              {/* PowerPoint Viewer - Left Aligned */}
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
                 <iframe
                   src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/tcjg98vt_Sharisse%20Cole_Benchmarking.pptx&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
@@ -113,24 +113,20 @@ const CaseStudy = () => {
               </div>
 
               {/* Whimsical Arrow and Text */}
-              <div className="flex flex-col items-center" style={{ width: '25%' }}>
-                <svg width="120" height="120" viewBox="0 0 120 120" className="mb-4">
-                  {/* Curved arrow path */}
+              <div className="flex flex-col items-center flex-1">
+                <svg width="150" height="150" viewBox="0 0 150 150" className="mb-4">
+                  {/* Curved arrow path pointing left */}
                   <path
-                    d="M 10 60 Q 40 20, 70 60"
+                    d="M 130 75 Q 100 30, 50 75"
                     fill="none"
                     stroke="black"
                     strokeWidth="3"
                     strokeLinecap="round"
                   />
-                  {/* Arrow head */}
-                  <path
-                    d="M 70 60 L 60 50 M 70 60 L 60 70"
-                    fill="none"
-                    stroke="black"
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  {/* Arrow head pointing left */}
+                  <polygon
+                    points="50,75 60,65 60,85"
+                    fill="black"
                   />
                 </svg>
                 <p className="text-lg font-bold text-black text-center leading-snug">
