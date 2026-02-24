@@ -49,43 +49,95 @@ const CaseStudy = () => {
             <h2 className="text-3xl font-bold text-black">The Problem</h2>
           </div>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <p className="text-lg text-black leading-relaxed">
-              Many hotel booking platforms have complex navigation and overwhelming information that makes 
-              it difficult for users to quickly find and book accommodations. Users often abandon their bookings 
-              due to confusing checkout processes and lack of clear pricing information.
+            <p className="text-lg text-black leading-relaxed mb-4">
+              I conducted various user testing to identify areas of user frustration. I will detail this further down the page but the pain points were:
             </p>
+            <ul className="list-disc list-inside text-lg text-black space-y-2 ml-4">
+              <li>Lack of filters</li>
+              <li>Lack of signposting</li>
+              <li>Unclear payment information</li>
+            </ul>
           </div>
         </section>
 
-        {/* Research */}
+        {/* User Research */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-4">
+          <div className="flex items-center gap-3 mb-8">
             <Users className="w-8 h-8 text-black" />
             <h2 className="text-3xl font-bold text-black">User Research</h2>
           </div>
-          <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <p className="text-lg text-black mb-6">
-              I conducted user interviews with 12 frequent travelers to understand their pain points 
-              when booking hotels online. Key findings included:
-            </p>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-                <span className="text-black">85% of users wanted clearer pricing with no hidden fees</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-                <span className="text-black">Users preferred seeing high-quality images before booking</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-                <span className="text-black">Quick filtering by amenities was highly valued</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-black flex-shrink-0 mt-1" />
-                <span className="text-black">Mobile-friendly interface was essential for on-the-go booking</span>
-              </li>
-            </ul>
+
+          {/* Competitive Benchmarking */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-black mb-4">Competitive Benchmarking</h3>
+            <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
+              <p className="text-lg text-black leading-relaxed mb-4">
+                The Cambridge dictionary's definition of benchmarking is "the act of measuring the quality of something by comparing it with something else of an accepted standard"
+              </p>
+              <p className="text-lg text-black leading-relaxed mb-4">
+                I chose 3 competitor websites which primarily focus on hotel bookings.
+              </p>
+              <ul className="list-none text-lg text-black space-y-2 ml-4 mb-4">
+                <li><span className="font-bold">Booking.com</span> – the largest hotel booking website</li>
+                <li><span className="font-bold">Agoda.com</span> – a website which focuses on hotel bookings and add on features such as SIM cards and card rentals</li>
+                <li><span className="font-bold">Marriott.com</span> – a website which caters specifically to Marriott hotels worldwide</li>
+              </ul>
+              <p className="text-lg text-black leading-relaxed mb-4">
+                I went through the process of booking a hotel on all 3 websites by taking screenshots of every page up to the payment page, alongside an analysis of their strategies, strengths and weaknesses.
+              </p>
+              <p className="text-lg text-black leading-relaxed">
+                My goal was to find out how my competitors complete the booking process and how I could make the process more efficient with my booking site.
+              </p>
+            </div>
+
+            {/* Placeholder Images for Competitive Benchmarking */}
+            <div className="grid grid-cols-2 gap-4 mb-8">
+              {[1, 2, 3, 4].map((num) => (
+                <div key={num} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
+                  <div className="text-center">
+                    <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
+                    <p className="text-gray-500">Screenshot {num}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="w-full h-0.5 bg-black mb-12"></div>
+
+          {/* Online Surveys */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-black mb-4">Online Surveys</h3>
+            <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
+              <p className="text-lg text-black leading-relaxed mb-4">
+                I used online surveys for a mix of evaluative research and generative research; to find out the user's goals, mental models, and experiences.
+              </p>
+              <p className="text-lg text-black leading-relaxed mb-4">
+                For my survey, I composed both closed and open questions. The closed questions allowed me to find out which features were popular or unpopular, through quantitative responses. The qualitative responses from open questions, allowed me to gain a deeper understanding of hotel bookings, including aspects which I hadn't considered, but were important to the user.
+              </p>
+              <p className="text-lg text-black leading-relaxed mb-4">
+                I double checked that the questions asked within the survey were GDPR compliant – I didn't ask identifiable questions as this would require the data to be securely processed using a manner such as encryption. I asked questions which were relevant and limited to what was necessary for me to conduct my research.
+              </p>
+              <p className="text-lg text-black leading-relaxed mb-4">
+                Before sending out my questions to potential users, I considered accessibility. According to Recite Me, 20% of the UK population requires assistive technology to access the internet. I didn't want there to be any barriers to entry so I chose Typeform to create and distribute my surveys. Typeform's default screen is WCAG 2.1, Level AA compliant and there is also an accessibility checker located within the form creation screen.
+              </p>
+              <p className="text-lg text-black leading-relaxed">
+                Once I had received all survey responses, I compiled the data and presented it into a user-friendly format using Microsoft PowerPoint. I used a bar chart to clearly display both the quantitative and qualitative data I obtained. Each slide included summarisation of the findings.
+              </p>
+            </div>
+
+            {/* Placeholder Images for Online Surveys */}
+            <div className="grid grid-cols-2 gap-4">
+              {[1, 2, 3, 4].map((num) => (
+                <div key={`survey-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
+                  <div className="text-center">
+                    <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
+                    <p className="text-gray-500">Screenshot {num}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
