@@ -272,35 +272,24 @@ const CaseStudy = () => {
             <h2 className="text-3xl font-bold text-black">The Solution</h2>
           </div>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <p className="text-lg text-black mb-6" style={{ textAlign: 'justify' }}>
-              I designed a streamlined booking experience that prioritizes transparency, ease of use, 
-              and visual appeal. The solution includes:
+            <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+              Using the data from the aforementioned research methods, I designed a streamlined booking experience that prioritizes transparency, ease of use, and visual appeal.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-bold text-black mb-3">Simplified Search</h3>
-                <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                  Clear destination, date, and guest selection with intuitive date picker and dropdown menus.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-black mb-3">Transparent Pricing</h3>
-                <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                  All costs displayed upfront with clear breakdown of taxes and fees before checkout.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-black mb-3">Visual Hierarchy</h3>
-                <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                  High-quality images and clean layout help users quickly evaluate options.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-black mb-3">Mobile Optimized</h3>
-                <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                  Responsive design ensures seamless experience across all devices.
-                </p>
-              </div>
+            <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+              I drew each screen state using pen and paper then scanned them into Figma{' '}
+              <a href="#" className="font-bold underline hover:opacity-70 transition-opacity">
+                See Interaction Design
+              </a>
+            </p>
+            <p className="text-lg text-black mb-6" style={{ textAlign: 'justify' }}>
+              Once I was happy with the path, I created a working prototype
+            </p>
+            
+            {/* View Prototype Button */}
+            <div className="flex justify-center">
+              <button className="bg-red-600 text-white px-12 py-4 rounded-2xl font-bold text-lg hover:bg-red-700 transition-colors">
+                View Prototype
+              </button>
             </div>
           </div>
         </section>
