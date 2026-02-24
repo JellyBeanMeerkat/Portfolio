@@ -327,7 +327,7 @@ const CaseStudy = () => {
             <div className="flex justify-center mb-6">
               <div className="text-center">
                 <div className="text-4xl font-bold text-black mb-2">4.8/5</div>
-                <p className="text-gray-700">Average user satisfaction rating</p>
+                <p className="text-gray-700">User Satisfaction Rating</p>
               </div>
             </div>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
