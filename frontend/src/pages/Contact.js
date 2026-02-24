@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Linkedin } from 'lucide-react';
+import { Mail, Linkedin, CheckCircle } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -7,11 +7,25 @@ const Contact = () => {
     email: '',
     message: ''
   });
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Thank you for your message! (This is a demo - form submission not yet connected)');
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`Message from ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+    const mailtoLink = `mailto:misssharissecole@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open mail client
+    window.location.href = mailtoLink;
+    
+    // Show success message
+    setSubmitted(true);
     setFormData({ name: '', email: '', message: '' });
+    
+    // Reset success message after 5 seconds
+    setTimeout(() => setSubmitted(false), 5000);
   };
 
   const handleChange = (e) => {
@@ -25,6 +39,16 @@ const Contact = () => {
     <div style={{ backgroundColor: '#E3E3FF' }} className="min-h-screen py-16 px-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-black mb-8">Get In Touch</h2>
+        
+        {/* Success Message */}
+        {submitted && (
+          <div className="bg-white border-2 border-black rounded-2xl p-4 mb-6 flex items-center gap-3">
+            <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center flex-shrink-0">
+              <CheckCircle className="w-5 h-5 text-white" />
+            </div>
+            <p className="text-black font-medium">Message sent! Your email client should open shortly.</p>
+          </div>
+        )}
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
@@ -80,12 +104,14 @@ const Contact = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-black" />
-                  <span className="text-black">contact@example.com</span>
+                  <a href="mailto:misssharissecole@gmail.com" className="text-black hover:opacity-70 transition-opacity">
+                    misssharissecole@gmail.com
+                  </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Linkedin className="w-5 h-5 text-black" />
                   <a
-                    href="https://linkedin.com"
+                    href="https://uk.linkedin.com/in/sharisse-cole"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-black hover:opacity-70 transition-opacity"
