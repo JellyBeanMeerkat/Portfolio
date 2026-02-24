@@ -322,7 +322,7 @@ const CaseStudy = () => {
 
         {/* Results */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Results & Impact</h2>
+          <h2 className="text-3xl font-bold text-black mb-6">Impact</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
               <div className="text-center">
