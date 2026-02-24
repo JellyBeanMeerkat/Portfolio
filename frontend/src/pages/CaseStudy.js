@@ -187,21 +187,21 @@ const CaseStudy = () => {
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Smart Filtering System</h3>
-              <p className="text-gray-700">
+              <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Users can filter hotels by amenities, price range, star rating, and guest reviews 
                 to quickly find their ideal accommodation.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Interactive Map View</h3>
-              <p className="text-gray-700">
+              <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Location-based search with interactive map allows users to visualize hotel locations 
                 relative to their destinations of interest.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Streamlined Checkout</h3>
-              <p className="text-gray-700">
+              <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Three-step checkout process with progress indicator and option to save payment 
                 details for faster future bookings.
               </p>
