@@ -183,7 +183,10 @@ const CaseStudy = () => {
           </div>
         </section>
 
-      {/* Results */}
+        {/* Divider */}
+        <div className="w-full h-0.5 bg-black mb-12"></div>
+
+        {/* Results */}
       <section className="mb-12">
         <div className="flex items-center gap-3 mb-8">
           <CheckCircle className="w-8 h-8 text-black" />
