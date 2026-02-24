@@ -323,16 +323,26 @@ const CaseStudy = () => {
             </ul>
           </div>
 
-          {/* Placeholder Images for Affinity Diagram */}
+          {/* Affinity Diagram Images */}
           <div className="grid grid-cols-2 gap-4 mb-4">
-            {[1, 2].map((num) => (
-              <div key={`affinity-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
-                <div className="text-center">
-                  <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
-                  <p className="text-gray-500">Screenshot {num}</p>
-                </div>
-              </div>
-            ))}
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+              <img
+                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/rsdyynvz_Aff1.JPG"
+                alt="Affinity Diagram 1"
+                className="w-full h-full object-contain"
+                loading="eager"
+                style={{ imageRendering: 'high-quality', minHeight: '250px' }}
+              />
+            </div>
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+              <img
+                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/olaz7jiu_Aff2.JPG"
+                alt="Affinity Diagram 2"
+                className="w-full h-full object-contain"
+                loading="eager"
+                style={{ imageRendering: 'high-quality', minHeight: '250px' }}
+              />
+            </div>
           </div>
 
           {/* Hyperlink */}
