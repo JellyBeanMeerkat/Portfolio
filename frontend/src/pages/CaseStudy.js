@@ -324,24 +324,26 @@ const CaseStudy = () => {
           </div>
 
           {/* Affinity Diagram Images */}
-          <div className="grid grid-cols-2 gap-4 mb-4" style={{ marginLeft: '15%', width: '56%', height: '338px' }}>
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
-              <img
-                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/rsdyynvz_Aff1.JPG"
-                alt="Affinity Diagram 1"
-                className="w-full h-full object-cover"
-                loading="eager"
-                style={{ imageRendering: 'high-quality' }}
-              />
-            </div>
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
-              <img
-                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/olaz7jiu_Aff2.JPG"
-                alt="Affinity Diagram 2"
-                className="w-full h-full object-cover"
-                loading="eager"
-                style={{ imageRendering: 'high-quality' }}
-              />
+          <div className="flex justify-center mb-4">
+            <div className="grid grid-cols-2 gap-4" style={{ width: '56%', height: '338px' }}>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/rsdyynvz_Aff1.JPG"
+                  alt="Affinity Diagram 1"
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/olaz7jiu_Aff2.JPG"
+                  alt="Affinity Diagram 2"
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
             </div>
           </div>
 
