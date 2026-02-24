@@ -314,8 +314,7 @@ const CaseStudy = () => {
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Streamlined Checkout</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                Three-step checkout process with progress indicator and option to save payment 
-                details for faster future bookings.
+                Four-step checkout process with progress indicator to keep user updated on the checkout progress.
               </p>
             </div>
           </div>
