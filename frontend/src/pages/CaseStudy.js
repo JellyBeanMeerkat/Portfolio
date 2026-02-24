@@ -90,16 +90,23 @@ const CaseStudy = () => {
               </p>
             </div>
 
-            {/* Placeholder Images for Competitive Benchmarking */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              {[1, 2, 3, 4].map((num) => (
-                <div key={num} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
-                  <div className="text-center">
-                    <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
-                    <p className="text-gray-500">Screenshot {num}</p>
-                  </div>
-                </div>
-              ))}
+            {/* Embedded PowerPoint Presentation */}
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '600px' }}>
+              <iframe
+                src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/6m7mae8i_Sharisse%20Cole_Benchmarking.pptx"
+                width="100%"
+                height="600px"
+                frameBorder="0"
+                title="Competitive Benchmarking Presentation"
+                className="w-full"
+              >
+                This browser does not support embedded presentations. 
+                <a href="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/6m7mae8i_Sharisse%20Cole_Benchmarking.pptx" 
+                   className="text-black underline"
+                   download>
+                  Download the presentation here
+                </a>
+              </iframe>
             </div>
           </div>
 
