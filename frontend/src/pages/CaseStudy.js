@@ -236,34 +236,34 @@ const CaseStudy = () => {
             </div>
 
             {/* Usability Testing Screenshot 1 - Agoda */}
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4">
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4" style={{ marginLeft: '15%', width: '56%', height: '338px' }}>
               <img
                 src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
                 alt="Agoda Usability Testing Screenshot"
-                className="w-full h-auto"
+                className="w-full h-full object-cover"
                 loading="eager"
                 style={{ imageRendering: 'high-quality' }}
               />
             </div>
 
             {/* Hyperlink for Agoda */}
-            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity mb-6 block" style={{ fontSize: '18px' }}>
+            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity mb-6 block" style={{ fontSize: '18px', marginLeft: '15%' }}>
               Watch Usability Test for Agoda.com
             </a>
 
             {/* Usability Testing Screenshot 2 - Traveloka */}
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4">
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4" style={{ marginLeft: '15%', width: '56%', height: '338px' }}>
               <img
                 src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
                 alt="Traveloka Usability Testing Screenshot"
-                className="w-full h-auto"
+                className="w-full h-full object-cover"
                 loading="eager"
                 style={{ imageRendering: 'high-quality' }}
               />
             </div>
 
             {/* Hyperlink for Traveloka */}
-            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px' }}>
+            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px', marginLeft: '15%' }}>
               Watch Test Interview for Traveloka.com
             </a>
           </div>
