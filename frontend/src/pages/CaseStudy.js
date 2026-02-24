@@ -49,7 +49,7 @@ const CaseStudy = () => {
             <h2 className="text-3xl font-bold text-black">The Problem</h2>
           </div>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <p className="text-lg text-black leading-relaxed mb-4">
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
               I conducted various user testing to identify areas of user frustration. I will detail this further down the page but the pain points were:
             </p>
             <ul className="list-disc list-inside text-lg text-black space-y-2 ml-4">
