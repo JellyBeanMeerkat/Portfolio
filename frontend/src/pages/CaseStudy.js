@@ -203,7 +203,7 @@ const CaseStudy = () => {
                     From the online survey I discovered the following which I'll be implementing in my booking system:
                   </p>
                   <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
-                    <li>90% of users did not include a child or pet in their booking so my search bar will contain adult and room only</li>
+                    <li>90% of users did not include a pet in their booking so my search bar will contain adult, children and room only</li>
                     <li>Pricing is an important factor so must be clearly displayed on all items</li>
                   </ol>
                 </div>
