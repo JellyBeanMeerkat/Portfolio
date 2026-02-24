@@ -26,6 +26,8 @@ const Portfolio = () => {
                 src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/716unhww_page.JPG"
                 alt="Hotel Booking System Design"
                 className="w-full h-full object-cover"
+                loading="eager"
+                style={{ imageRendering: 'high-quality' }}
               />
             </div>
             <h3 className="text-2xl font-bold text-black mb-2">Designing a Hotel Booking System</h3>
