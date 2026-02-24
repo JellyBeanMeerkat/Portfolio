@@ -163,16 +163,46 @@ const CaseStudy = () => {
               </p>
             </div>
 
-            {/* Placeholder Images for Online Surveys */}
-            <div className="grid grid-cols-2 gap-4">
-              {[1, 2, 3, 4].map((num) => (
-                <div key={`survey-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
-                  <div className="text-center">
-                    <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
-                    <p className="text-gray-500">Screenshot {num}</p>
-                  </div>
+            {/* Embedded PowerPoint for Online Surveys */}
+            <div className="mt-8">
+              <div className="flex items-center gap-1" style={{ marginLeft: '15%' }}>
+                {/* PowerPoint Viewer */}
+                <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
+                  <iframe
+                    src="PLACEHOLDER_FOR_SURVEY_POWERPOINT_URL"
+                    width="100%"
+                    height="338px"
+                    frameBorder="0"
+                    title="Online Survey Questions"
+                    className="w-full"
+                    allowFullScreen
+                  >
+                    This browser does not support embedded presentations.
+                  </iframe>
                 </div>
-              ))}
+
+                {/* Pointing Hand and Text */}
+                <div className="flex flex-col items-center flex-1">
+                  <span className="text-6xl mb-4">👈</span>
+                  <p className="text-lg font-bold text-black text-center leading-snug">
+                    View my<br />Online Survey<br />Questions here
+                  </p>
+                </div>
+              </div>
+
+              {/* Online Surveys Results */}
+              <div className="mt-8">
+                <h3 className="text-2xl font-bold text-black mb-4">Online Surveys Results</h3>
+                <div className="bg-white rounded-2xl p-8 border-2 border-black">
+                  <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+                    From the online survey I discovered the following which I'll be implementing in my booking system:
+                  </p>
+                  <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
+                    <li>90% of users did not include a child or pet in their booking so my search bar will contain adult and room only</li>
+                    <li>Pricing is an important factor so must be clearly displayed on all items</li>
+                  </ol>
+                </div>
+              </div>
             </div>
           </div>
 
