@@ -114,21 +114,29 @@ const CaseStudy = () => {
 
               {/* Whimsical Arrow and Text */}
               <div className="flex flex-col items-center flex-1">
-                <svg width="150" height="150" viewBox="0 0 150 150" className="mb-4">
-                  {/* Curved arrow path pointing left */}
-                  <path
-                    d="M 130 75 Q 100 30, 50 75"
-                    fill="none"
-                    stroke="black"
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                  />
-                  {/* Arrow head pointing left */}
-                  <polygon
-                    points="50,75 60,65 60,85"
-                    fill="black"
-                  />
-                </svg>
+                <div className="relative mb-4">
+                  <svg width="150" height="150" viewBox="0 0 150 150">
+                    {/* Curved line */}
+                    <path
+                      d="M 130 75 Q 100 30, 50 75"
+                      fill="none"
+                      stroke="black"
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                  {/* Pointing hand emoji */}
+                  <span 
+                    className="absolute text-5xl"
+                    style={{ 
+                      top: '55px', 
+                      left: '25px',
+                      transform: 'rotate(-10deg)'
+                    }}
+                  >
+                    👈
+                  </span>
+                </div>
                 <p className="text-lg font-bold text-black text-center leading-snug">
                   View my<br />Benchmarking<br />Analysis here
                 </p>
