@@ -64,18 +64,18 @@ const Header = () => {
         </nav>
         <div className="flex gap-3">
           <a
-            href="https://linkedin.com"
+            href="https://uk.linkedin.com/in/sharisse-cole"
             target="_blank"
             rel="noopener noreferrer"
             className="relative"
           >
             <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-black"></div>
-            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center bg-blue-600 border-2 border-black">
-              <span className="text-white text-lg font-serif font-semibold">in</span>
+            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center border-2 border-black" style={{ backgroundColor: '#0a66c2' }}>
+              <span className="text-white text-xl font-bold" style={{ fontFamily: "'Myriad Pro', sans-serif", fontWeight: 700 }}>in</span>
             </div>
           </a>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:misssharissecole@gmail.com"
             className="relative"
           >
             <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-black"></div>
