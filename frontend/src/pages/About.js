@@ -47,7 +47,7 @@ const About = () => {
           </div>
 
           {/* Presenting Figure - Outside box at bottom right */}
-          <div className="flex-shrink-0" style={{ height: '85%', alignSelf: 'flex-end' }}>
+          <div className="flex-shrink-0" style={{ height: '85%', alignSelf: 'flex-end', marginBottom: '-10px' }}>
             <img
               src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/60uu9hlv_Tada%20Me%20no%20background.JPG"
               alt="Presenting"
