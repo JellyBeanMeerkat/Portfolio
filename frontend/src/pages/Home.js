@@ -14,7 +14,7 @@ const Home = () => {
           <div className="flex-1 flex flex-col items-start">
             {/* HELLO! Badge */}
             <div className="flex items-center gap-2 px-5 py-2 rounded-full border-2 border-gray-400 mb-8" style={{ backgroundColor: '#E3F2FF' }}>
-              <span className="text-black text-lg font-bold">*</span>
+              <span className="text-black text-lg font-bold">★</span>
               <span className="text-sm font-bold text-black">HELLO!</span>
             </div>
 
