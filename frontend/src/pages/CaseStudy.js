@@ -169,7 +169,7 @@ const CaseStudy = () => {
                 {/* PowerPoint Viewer */}
                 <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
                   <iframe
-                    src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/kswpdrj1_UX%20Project%202%20Scole.pdf&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
+                    src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/iuyjjx3v_UX%20Project%202%20Scole.pptx&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
                     width="100%"
                     height="338px"
                     frameBorder="0"
@@ -178,7 +178,7 @@ const CaseStudy = () => {
                     allowFullScreen
                   >
                     This browser does not support embedded presentations.
-                    <a href="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/kswpdrj1_UX%20Project%202%20Scole.pdf" 
+                    <a href="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/iuyjjx3v_UX%20Project%202%20Scole.pptx" 
                        className="text-black underline"
                        download>
                       Download the survey questions here
