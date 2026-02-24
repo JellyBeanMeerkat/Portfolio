@@ -481,20 +481,12 @@ const CaseStudy = () => {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-black mb-6">Reflection / Future Iterations</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <ul className="space-y-4">
-              <li className="text-black" style={{ textAlign: 'justify' }}>
-                <span className="font-bold">User research is essential:</span> Direct feedback from target users 
-                revealed pain points that weren't initially obvious, shaping the final design direction.
-              </li>
-              <li className="text-black" style={{ textAlign: 'justify' }}>
-                <span className="font-bold">Simplicity wins:</span> Removing unnecessary steps and information 
-                from the booking flow significantly improved conversion rates.
-              </li>
-              <li className="text-black" style={{ textAlign: 'justify' }}>
-                <span className="font-bold">Transparency builds trust:</span> Showing all costs upfront reduced 
-                cart abandonment and increased user confidence in the platform.
-              </li>
-            </ul>
+            <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+              <span className="font-bold">User research is essential:</span> Direct feedback from target users revealed pain points that weren't initially obvious and the mental model of the user when booking a hotel. This information shaped the final design direction and resulted in the user being able to book a hotel without hinderance.
+            </p>
+            <p className="text-lg text-black" style={{ textAlign: 'justify' }}>
+              In a future iteration I would add additional payment options as the user mentioned during testing that he would like to pay via PayPal. I would also add an option for a user to sign in as 80% of those surveyed specified that they sign into a website when booking a hotel.
+            </p>
           </div>
         </section>
 
