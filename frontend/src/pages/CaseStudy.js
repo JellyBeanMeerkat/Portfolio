@@ -227,7 +227,7 @@ const CaseStudy = () => {
                 <p className="text-gray-700">Average user satisfaction rating</p>
               </div>
             </div>
-            <p className="text-lg text-black">
+            <p className="text-lg text-black" style={{ textAlign: 'justify' }}>
               The redesigned booking system received overwhelmingly positive feedback from users, 
               with many praising the intuitive interface and transparent pricing model.
             </p>
