@@ -239,15 +239,15 @@ const CaseStudy = () => {
           <h2 className="text-3xl font-bold text-black mb-6">Key Learnings</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <ul className="space-y-4">
-              <li className="text-black">
+              <li className="text-black" style={{ textAlign: 'justify' }}>
                 <span className="font-bold">User research is essential:</span> Direct feedback from target users 
                 revealed pain points that weren't initially obvious, shaping the final design direction.
               </li>
-              <li className="text-black">
+              <li className="text-black" style={{ textAlign: 'justify' }}>
                 <span className="font-bold">Simplicity wins:</span> Removing unnecessary steps and information 
                 from the booking flow significantly improved conversion rates.
               </li>
-              <li className="text-black">
+              <li className="text-black" style={{ textAlign: 'justify' }}>
                 <span className="font-bold">Transparency builds trust:</span> Showing all costs upfront reduced 
                 cart abandonment and increased user confidence in the platform.
               </li>
