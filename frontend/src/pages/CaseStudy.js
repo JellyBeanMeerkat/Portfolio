@@ -341,7 +341,7 @@ const CaseStudy = () => {
 
         {/* Learnings */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Reflection</h2>
+          <h2 className="text-3xl font-bold text-black mb-6">Reflection / Future Iterations</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <ul className="space-y-4">
               <li className="text-black" style={{ textAlign: 'justify' }}>
