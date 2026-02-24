@@ -282,7 +282,7 @@ const CaseStudy = () => {
               </a>
             </p>
             <p className="text-lg text-black mb-6" style={{ textAlign: 'justify' }}>
-              Once I was satisfied the path followed the user's mental mode, I created a working prototype.
+              Once I was satisfied the path followed the user's mental mode, I created a working prototype using the scenario specified in the prototype comments.
             </p>
             
             {/* View Prototype Button */}
