@@ -397,7 +397,7 @@ const CaseStudy = () => {
             </p>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
               I drew each screen state using pen and paper then scanned them into Figma.{' '}
-              <a href="#" className="font-bold underline hover:opacity-70 transition-opacity">
+              <a href="https://www.figma.com/board/cD2JgmqF41K7lsxrdFQsWz/SharisseCole_Screen_States?t=dAB653THRgwtSetG-1" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:opacity-70 transition-opacity">
                 See Interaction Design
               </a>
             </p>
