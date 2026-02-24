@@ -324,23 +324,17 @@ const CaseStudy = () => {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-black mb-6">Impact</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-black mb-2">40%</div>
-                <p className="text-gray-700">Increase in booking completion rate</p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-black mb-2">25%</div>
-                <p className="text-gray-700">Reduction in customer support queries</p>
-              </div>
+            <div className="flex justify-center mb-6">
               <div className="text-center">
                 <div className="text-4xl font-bold text-black mb-2">4.8/5</div>
                 <p className="text-gray-700">Average user satisfaction rating</p>
               </div>
             </div>
+            <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+              The user who initially partook in the usability testing was invited back to test the prototype.
+            </p>
             <p className="text-lg text-black" style={{ textAlign: 'justify' }}>
-              The redesigned booking system received overwhelmingly positive feedback from users, 
-              with many praising the intuitive interface and transparent pricing model.
+              The redesigned booking system received overwhelmingly positive feedback from the user and he was able to easily book a room based upon the given criteria.
             </p>
           </div>
         </section>
