@@ -79,7 +79,7 @@ const Header = () => {
             className="relative"
           >
             <div className="absolute top-1.5 left-1.5 w-12 h-12 rounded-xl border-2 border-black"></div>
-            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center border-2 border-black" style={{ backgroundColor: '#E3F2FF' }}>
+            <div className="relative w-12 h-12 rounded-xl flex items-center justify-center border-2 border-black bg-white">
               <AtSign className="w-6 h-6 text-black" />
             </div>
           </a>
