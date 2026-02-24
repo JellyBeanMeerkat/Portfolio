@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Users, Target, Lightbulb, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Users, Target, Lightbulb, CheckCircle, HelpCircle, Image } from 'lucide-react';
 
 const CaseStudy = () => {
   const navigate = useNavigate();
