@@ -299,10 +299,9 @@ const CaseStudy = () => {
           <h2 className="text-3xl font-bold text-black mb-6">Key Features</h2>
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
-              <h3 className="text-xl font-bold text-black mb-2">Smart Filtering System</h3>
+              <h3 className="text-xl font-bold text-black mb-2">Simplified Search</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                Users can filter hotels by amenities, price range, star rating, and guest reviews 
-                to quickly find their ideal accommodation.
+                Clear destination, date, and guest selection with intuitive date picker and dropdown menus.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
