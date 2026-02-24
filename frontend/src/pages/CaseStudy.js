@@ -24,28 +24,20 @@ const CaseStudy = () => {
             A responsive hotel booking platform focused on a seamless reservation experience
           </p>
           
-          {/* Project Image */}
-          <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-8">
-            <img
-              src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/716unhww_page.JPG"
-              alt="Hotel Booking System"
-              className="w-full h-auto"
-            />
+          {/* Project Image - Question Mark */}
+          <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-8 flex items-center justify-center" style={{ minHeight: '400px' }}>
+            <HelpCircle className="w-48 h-48 text-gray-400" strokeWidth={1} />
           </div>
 
           {/* Project Details */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="font-bold text-black mb-2">Role</h3>
               <p className="text-gray-700">UX Researcher & Designer</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
-              <h3 className="font-bold text-black mb-2">Duration</h3>
-              <p className="text-gray-700">3 months</p>
-            </div>
-            <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="font-bold text-black mb-2">Tools</h3>
-              <p className="text-gray-700">Figma, FigJam, Miro</p>
+              <p className="text-gray-700">Figma, FigJam, Miro, TypeForm</p>
             </div>
           </div>
         </div>
