@@ -52,7 +52,11 @@ const About = () => {
               src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/60uu9hlv_Tada%20Me%20no%20background.JPG"
               alt="Presenting"
               className="h-full w-auto object-contain"
-              style={{ maxHeight: '500px' }}
+              style={{ 
+                maxHeight: '500px',
+                mixBlendMode: 'multiply',
+                filter: 'contrast(1.1)'
+              }}
             />
           </div>
         </div>
