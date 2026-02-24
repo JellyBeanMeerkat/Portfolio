@@ -110,19 +110,19 @@ const CaseStudy = () => {
           <div className="mb-12">
             <h3 className="text-2xl font-bold text-black mb-4">Online Surveys</h3>
             <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
-              <p className="text-lg text-black leading-relaxed mb-4">
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I used online surveys for a mix of evaluative research and generative research; to find out the user's goals, mental models, and experiences.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4">
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 For my survey, I composed both closed and open questions. The closed questions allowed me to find out which features were popular or unpopular, through quantitative responses. The qualitative responses from open questions, allowed me to gain a deeper understanding of hotel bookings, including aspects which I hadn't considered, but were important to the user.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4">
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I double checked that the questions asked within the survey were GDPR compliant – I didn't ask identifiable questions as this would require the data to be securely processed using a manner such as encryption. I asked questions which were relevant and limited to what was necessary for me to conduct my research.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4">
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 Before sending out my questions to potential users, I considered accessibility. According to Recite Me, 20% of the UK population requires assistive technology to access the internet. I didn't want there to be any barriers to entry so I chose Typeform to create and distribute my surveys. Typeform's default screen is WCAG 2.1, Level AA compliant and there is also an accessibility checker located within the form creation screen.
               </p>
-              <p className="text-lg text-black leading-relaxed">
+              <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
                 Once I had received all survey responses, I compiled the data and presented it into a user-friendly format using Microsoft PowerPoint. I used a bar chart to clearly display both the quantitative and qualitative data I obtained. Each slide included summarisation of the findings.
               </p>
             </div>
