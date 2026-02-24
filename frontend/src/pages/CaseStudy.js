@@ -235,16 +235,26 @@ const CaseStudy = () => {
               </p>
             </div>
 
-            {/* Placeholder Images for Usability Testing */}
+            {/* Usability Testing Screenshots */}
             <div className="grid grid-cols-2 gap-4 mb-4">
-              {[1, 2].map((num) => (
-                <div key={`usability-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
-                  <div className="text-center">
-                    <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
-                    <p className="text-gray-500">Screenshot {num}</p>
-                  </div>
-                </div>
-              ))}
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
+                  alt="Agoda Usability Testing Screenshot"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
+                  alt="Traveloka Usability Testing Screenshot"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
             </div>
 
             {/* Hyperlink */}
