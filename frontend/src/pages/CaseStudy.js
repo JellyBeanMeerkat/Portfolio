@@ -236,36 +236,60 @@ const CaseStudy = () => {
             </div>
 
             {/* Usability Testing Screenshot 1 - Agoda */}
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4" style={{ marginLeft: '15%', width: '56%', height: '338px' }}>
-              <img
-                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
-                alt="Agoda Usability Testing Screenshot"
-                className="w-full h-full object-cover"
-                loading="eager"
-                style={{ imageRendering: 'high-quality' }}
-              />
+            <div className="flex justify-center mb-4">
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '56%', height: '338px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
+                  alt="Agoda Usability Testing Screenshot"
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
             </div>
 
             {/* Hyperlink for Agoda */}
-            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity mb-6 block" style={{ fontSize: '18px', marginLeft: '15%' }}>
-              Watch Usability Test for Agoda.com
-            </a>
+            <div className="text-center mb-12">
+              <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px' }}>
+                Watch Usability Test for Agoda.com
+              </a>
+            </div>
 
             {/* Usability Testing Screenshot 2 - Traveloka */}
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden mb-4" style={{ marginLeft: '15%', width: '56%', height: '338px' }}>
-              <img
-                src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
-                alt="Traveloka Usability Testing Screenshot"
-                className="w-full h-full object-cover"
-                loading="eager"
-                style={{ imageRendering: 'high-quality' }}
-              />
+            <div className="flex justify-center mb-4">
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '56%', height: '338px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
+                  alt="Traveloka Usability Testing Screenshot"
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
             </div>
 
             {/* Hyperlink for Traveloka */}
-            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px', marginLeft: '15%' }}>
-              Watch Test Interview for Traveloka.com
-            </a>
+            <div className="text-center mb-8">
+              <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px' }}>
+                Watch Test Interview for Traveloka.com
+              </a>
+            </div>
+
+            {/* Results of Usability Testing */}
+            <div className="mt-8">
+              <h3 className="text-2xl font-bold text-black mb-4">Results of Usability Testing</h3>
+              <div className="bg-white rounded-2xl p-8 border-2 border-black">
+                <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
+                  From the usability testing I have extracted the following results
+                </p>
+                <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
+                  <li>The user likes filters and uses them whenever possible</li>
+                  <li>The user likes the map function to see where a hotel is located</li>
+                  <li>The user values language which is easy to understand and interpret</li>
+                  <li>The user values photos and reviews to build trust in a listing</li>
+                </ol>
+              </div>
+            </div>
           </div>
         </section>
 
