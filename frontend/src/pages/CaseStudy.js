@@ -92,9 +92,9 @@ const CaseStudy = () => {
 
             {/* Embedded PowerPoint Presentation */}
             <div className="flex justify-center">
-              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '75%' }}>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
                 <iframe
-                  src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/uj43gkya_Sharisse%20Cole_Benchmarking.pptx&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
+                  src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/tcjg98vt_Sharisse%20Cole_Benchmarking.pptx&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
                   width="100%"
                   height="338px"
                   frameBorder="0"
@@ -103,7 +103,7 @@ const CaseStudy = () => {
                   allowFullScreen
                 >
                   This browser does not support embedded presentations. 
-                  <a href="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/uj43gkya_Sharisse%20Cole_Benchmarking.pptx" 
+                  <a href="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/tcjg98vt_Sharisse%20Cole_Benchmarking.pptx" 
                      className="text-black underline"
                      download>
                     Download the presentation here
