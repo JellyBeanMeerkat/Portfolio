@@ -237,13 +237,13 @@ const CaseStudy = () => {
 
             {/* Usability Testing Screenshot 1 - Agoda */}
             <div className="flex justify-center mb-4">
-              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '56%', height: '338px' }}>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden flex items-center justify-center" style={{ width: '56%', height: '280px' }}>
                 <img
                   src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9lj8hr2w_AgodaCapture.JPG"
                   alt="Agoda Usability Testing Screenshot"
-                  className="w-full h-full object-cover"
+                  className="object-contain"
                   loading="eager"
-                  style={{ imageRendering: 'high-quality' }}
+                  style={{ imageRendering: 'high-quality', maxHeight: '90%', maxWidth: '98%' }}
                 />
               </div>
             </div>
@@ -257,13 +257,13 @@ const CaseStudy = () => {
 
             {/* Usability Testing Screenshot 2 - Traveloka */}
             <div className="flex justify-center mb-4">
-              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '56%', height: '338px' }}>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden flex items-center justify-center" style={{ width: '56%', height: '280px' }}>
                 <img
                   src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/eq5600jy_TravelokaCapture.JPG"
                   alt="Traveloka Usability Testing Screenshot"
-                  className="w-full h-full object-cover"
+                  className="object-contain"
                   loading="eager"
-                  style={{ imageRendering: 'high-quality' }}
+                  style={{ imageRendering: 'high-quality', maxHeight: '90%', maxWidth: '98%' }}
                 />
               </div>
             </div>
