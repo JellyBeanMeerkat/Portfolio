@@ -8,11 +8,12 @@ const Portfolio = () => {
   return (
     <div style={{ backgroundColor: '#E3E3FF' }} className="min-h-screen py-16 px-8 relative">
       {/* Decorative sparkles */}
-      <span className="absolute top-24 left-20 text-4xl" style={{ color: '#FDE4F9' }}>✧</span>
-      <span className="absolute top-40 right-32 text-3xl" style={{ color: '#FDE4F9' }}>✧</span>
-      <span className="absolute bottom-32 left-40 text-5xl" style={{ color: '#FDE4F9' }}>✧</span>
-      <span className="absolute top-60 right-64 text-2xl" style={{ color: '#FDE4F9' }}>✧</span>
-      <span className="absolute bottom-48 right-24 text-4xl" style={{ color: '#FDE4F9' }}>✧</span>
+      <span className="absolute top-24 left-20 text-4xl text-black">✧</span>
+      <span className="absolute top-40 right-32 text-3xl text-black">✧</span>
+      <span className="absolute bottom-32 left-40 text-5xl text-black">✧</span>
+      <span className="absolute top-60 right-64 text-2xl text-black">✧</span>
+      <span className="absolute bottom-48 right-24 text-4xl text-black">✧</span>
+      <span className="absolute top-32 left-64 text-3xl text-black">✧</span>
       
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="text-4xl font-bold text-black mb-12">Check out some of my work</h2>
