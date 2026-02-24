@@ -91,14 +91,15 @@ const CaseStudy = () => {
             </div>
 
             {/* Embedded PowerPoint Presentation */}
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '600px' }}>
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '450px' }}>
               <iframe
-                src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/6m7mae8i_Sharisse%20Cole_Benchmarking.pptx"
+                src="https://view.officeapps.live.com/op/embed.aspx?src=https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/6m7mae8i_Sharisse%20Cole_Benchmarking.pptx&wdAr=1.7777777777777777&ui=en-US&rs=en-US&WdEmbedCode=0"
                 width="100%"
-                height="600px"
+                height="450px"
                 frameBorder="0"
                 title="Competitive Benchmarking Presentation"
                 className="w-full"
+                allowFullScreen
               >
                 This browser does not support embedded presentations. 
                 <a href="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/6m7mae8i_Sharisse%20Cole_Benchmarking.pptx" 
