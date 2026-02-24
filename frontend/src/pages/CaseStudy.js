@@ -244,7 +244,7 @@ const CaseStudy = () => {
           </div>
 
           {/* Placeholder Images for User Flow */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 mb-4">
             {[1, 2].map((num) => (
               <div key={`userflow-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
                 <div className="text-center">
@@ -254,8 +254,16 @@ const CaseStudy = () => {
               </div>
             ))}
           </div>
+
+          {/* Hyperlink */}
+          <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity">
+            View User Flow
+          </a>
         </div>
       </section>
+
+      {/* Divider */}
+      <div className="w-full h-0.5 bg-black mb-12"></div>
 
       {/* Solution */}
         <section className="mb-12">
