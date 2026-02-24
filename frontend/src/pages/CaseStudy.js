@@ -287,7 +287,7 @@ const CaseStudy = () => {
             
             {/* View Prototype Button */}
             <div className="flex justify-center">
-              <button className="text-white px-12 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity" style={{ backgroundColor: '#ff9999' }}>
+              <button className="text-white px-12 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity" style={{ backgroundColor: '#ff7777' }}>
                 View Prototype
               </button>
             </div>
