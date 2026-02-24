@@ -141,7 +141,113 @@ const CaseStudy = () => {
           </div>
         </section>
 
-        {/* Solution */}
+        {/* Divider */}
+        <div className="w-full h-0.5 bg-black mb-12"></div>
+
+        {/* Usability Testing */}
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-black mb-4">Usability Testing</h3>
+          <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              I chose usability testing for evaluative research, to find out what people are clicking on and what their pain points were.
+            </p>
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              I both conducted usability testing and took notes from a recording of usability testing performed by another person.
+            </p>
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              Prior to my own usability session, I sent the user a consent form detailing how their data would be processed in compliance with GDPR and the setup of the testing session, along with contact details in case the user had any questions or concerns. The form also included a section for access needs so adjustments could be made to make the session easier and inclusive for them.
+            </p>
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              On the day of the session, I presented the user a scenario and website URL and watched as the user navigated through a website to complete their task. I encouraged the user to think aloud and when I interjected to ask questions, I made sure they were not leading questions and completely neutral to avoid a wording bias.
+            </p>
+            <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
+              Once the testing session had completed, I ran the recordings through a transcriber and rewatched the sessions. I took note of any actions the user could easily conduct and any challenges they stumbled across. I also made a note of quotes the user made to express themselves.
+            </p>
+          </div>
+
+          {/* Placeholder Images for Usability Testing */}
+          <div className="grid grid-cols-2 gap-4 mb-4">
+            {[1, 2].map((num) => (
+              <div key={`usability-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
+                <div className="text-center">
+                  <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
+                  <p className="text-gray-500">Screenshot {num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Hyperlink */}
+          <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity">
+            Watch Usability Interview
+          </a>
+        </div>
+      </section>
+
+      {/* Results */}
+      <section className="mb-12">
+        <div className="flex items-center gap-3 mb-8">
+          <CheckCircle className="w-8 h-8 text-black" />
+          <h2 className="text-3xl font-bold text-black">Results</h2>
+        </div>
+
+        {/* Affinity Diagram */}
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-black mb-4">Affinity Diagram</h3>
+          <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              I used triangulation to compile the unstructured data from all three research methods, and put these into an affinity diagram using Post-it notes in Miro. This allowed me to structure the data into its natural relationships and identify patterns. I created various groups such as "Mental Map" and "Search Results" and within those groups I split the data even further into sub-groups such as "Features which confused the User" and "User Goals". These groups made the data easier to understand and analyse which allowed me to identify patterns and draw conclusions.
+            </p>
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              With the structured data I could see points of repetition such as liking the map feature and being confused with lack of filters. These patterns were important to me as I wanted to create a product which would be easy to use and follow the mental model of my target market.
+            </p>
+            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+              From here I could see the most common pain points for the user:
+            </p>
+            <ul className="list-disc list-inside text-lg text-black space-y-2 ml-4">
+              <li>Lack of filters</li>
+              <li>Lack of signposting</li>
+              <li>Unclear payment information</li>
+            </ul>
+          </div>
+
+          {/* Placeholder Images for Affinity Diagram */}
+          <div className="grid grid-cols-2 gap-4">
+            {[1, 2].map((num) => (
+              <div key={`affinity-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
+                <div className="text-center">
+                  <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
+                  <p className="text-gray-500">Screenshot {num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* User Flow */}
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-black mb-4">User Flow</h3>
+          <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
+            <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
+              I created a visual roadmap of the user's journey using the perfect path for a user to complete a hotel booking. Using the data obtained from previous research methods, I was able to see the user's pain points and in turn create an intuitive interface.
+            </p>
+          </div>
+
+          {/* Placeholder Images for User Flow */}
+          <div className="grid grid-cols-2 gap-4">
+            {[1, 2].map((num) => (
+              <div key={`userflow-${num}`} className="bg-white rounded-2xl border-2 border-black p-8 flex items-center justify-center" style={{ minHeight: '250px' }}>
+                <div className="text-center">
+                  <Image className="w-16 h-16 mx-auto mb-2 text-gray-400" />
+                  <p className="text-gray-500">Screenshot {num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Solution */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <Lightbulb className="w-8 h-8 text-black" />
