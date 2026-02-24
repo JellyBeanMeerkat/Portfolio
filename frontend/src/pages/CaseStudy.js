@@ -91,7 +91,7 @@ const CaseStudy = () => {
             </div>
 
             {/* Embedded PowerPoint Presentation with Arrow */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1">
               {/* PowerPoint Viewer - Left Aligned */}
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
                 <iframe
