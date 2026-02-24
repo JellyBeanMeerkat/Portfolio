@@ -177,7 +177,7 @@ const CaseStudy = () => {
             </div>
 
             {/* Hyperlink */}
-            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity">
+            <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity" style={{ fontSize: '18px' }}>
               Watch Usability Interview
             </a>
           </div>
