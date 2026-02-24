@@ -91,7 +91,7 @@ const CaseStudy = () => {
             </div>
 
             {/* Embedded PowerPoint Presentation with Arrow */}
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-4">
               {/* PowerPoint Viewer - Left Aligned */}
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ minHeight: '338px', width: '56%' }}>
                 <iframe
@@ -112,31 +112,10 @@ const CaseStudy = () => {
                 </iframe>
               </div>
 
-              {/* Whimsical Arrow and Text */}
+              {/* Pointing Hand and Text */}
               <div className="flex flex-col items-center flex-1">
-                <div className="relative mb-4">
-                  <svg width="150" height="150" viewBox="0 0 150 150">
-                    {/* Curved line */}
-                    <path
-                      d="M 130 75 Q 100 30, 50 75"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                  {/* Pointing hand emoji */}
-                  <span 
-                    className="absolute text-5xl"
-                    style={{ 
-                      top: '55px', 
-                      left: '25px',
-                      transform: 'rotate(-10deg)'
-                    }}
-                  >
-                    👈
-                  </span>
-                </div>
+                {/* Pointing hand emoji */}
+                <span className="text-6xl mb-4">👈</span>
                 <p className="text-lg font-bold text-black text-center leading-snug">
                   View my<br />Benchmarking<br />Analysis here
                 </p>
