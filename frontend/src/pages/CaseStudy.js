@@ -375,11 +375,11 @@ const CaseStudy = () => {
       {/* Divider */}
       <div className="w-full h-0.5 bg-black mb-12"></div>
 
-      {/* Solution */}
+      {/* Results */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <Lightbulb className="w-8 h-8 text-black" />
-            <h2 className="text-3xl font-bold text-black">The Solution</h2>
+            <h2 className="text-3xl font-bold text-black">Results</h2>
           </div>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
