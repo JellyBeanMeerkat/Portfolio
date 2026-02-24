@@ -239,7 +239,7 @@ const CaseStudy = () => {
           <h3 className="text-2xl font-bold text-black mb-4">User Flow</h3>
           <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
             <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
-              I created a visual roadmap of the user's journey using the perfect path for a user to complete a hotel booking. Using the data obtained from previous research methods, I was able to see the user's pain points and in turn create an intuitive interface.
+              I created a visual roadmap of the user's journey using the perfect path for a user to complete a hotel booking. I used the data obtained from previous research methods to create an intuitive interface.
             </p>
           </div>
 
