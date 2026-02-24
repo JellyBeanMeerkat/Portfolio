@@ -71,21 +71,21 @@ const CaseStudy = () => {
           <div className="mb-12">
             <h3 className="text-2xl font-bold text-black mb-4">Competitive Benchmarking</h3>
             <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
-              <p className="text-lg text-black leading-relaxed mb-4">
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 The Cambridge dictionary's definition of benchmarking is "the act of measuring the quality of something by comparing it with something else of an accepted standard"
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4">
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I chose 3 competitor websites which primarily focus on hotel bookings.
               </p>
-              <ul className="list-none text-lg text-black space-y-2 ml-4 mb-4">
+              <ol className="list-decimal text-lg text-black space-y-2 ml-8 mb-4" style={{ textAlign: 'justify' }}>
                 <li><span className="font-bold">Booking.com</span> – the largest hotel booking website</li>
                 <li><span className="font-bold">Agoda.com</span> – a website which focuses on hotel bookings and add on features such as SIM cards and card rentals</li>
                 <li><span className="font-bold">Marriott.com</span> – a website which caters specifically to Marriott hotels worldwide</li>
-              </ul>
-              <p className="text-lg text-black leading-relaxed mb-4">
+              </ol>
+              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I went through the process of booking a hotel on all 3 websites by taking screenshots of every page up to the payment page, alongside an analysis of their strategies, strengths and weaknesses.
               </p>
-              <p className="text-lg text-black leading-relaxed">
+              <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
                 My goal was to find out how my competitors complete the booking process and how I could make the process more efficient with my booking site.
               </p>
             </div>
