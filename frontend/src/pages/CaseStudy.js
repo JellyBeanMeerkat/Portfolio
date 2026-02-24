@@ -346,7 +346,7 @@ const CaseStudy = () => {
           </div>
 
           {/* Hyperlink */}
-          <a href="#" className="text-black font-bold underline hover:opacity-70 transition-opacity">
+          <a href="https://miro.com/app/board/uXjVLDgvFhY=/?share_link_id=182772803199" target="_blank" rel="noopener noreferrer" className="text-black font-bold underline hover:opacity-70 transition-opacity">
             View Affinity Diagram
           </a>
         </div>
