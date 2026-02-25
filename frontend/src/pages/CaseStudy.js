@@ -447,7 +447,7 @@ const CaseStudy = () => {
               </p>
             </div>
             {/* Simplified Search Images */}
-            <div className="flex justify-center gap-4 my-4">
+            <div className="flex justify-center gap-4 mb-4 mt-1">
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
                 <img
                   src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/yhuyqut3_Calendar.JPG"
@@ -475,7 +475,7 @@ const CaseStudy = () => {
               </p>
             </div>
             {/* Filters Images */}
-            <div className="flex justify-center gap-4 my-4">
+            <div className="flex justify-center gap-4 mb-4 mt-1">
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
                 <img
                   src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/tprwp5s0_Filter1.JPG"
@@ -503,7 +503,7 @@ const CaseStudy = () => {
               </p>
             </div>
             {/* Map Image */}
-            <div className="flex justify-center my-4">
+            <div className="flex justify-center mb-4 mt-1">
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '70%', height: '400px' }}>
                 <img
                   src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/49myp41c_Map.JPG"
@@ -522,7 +522,7 @@ const CaseStudy = () => {
               </p>
             </div>
             {/* Progress Images */}
-            <div className="flex justify-center gap-4 my-4">
+            <div className="flex justify-center gap-4 mb-4 mt-1">
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
                 <img
                   src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/3bmi91cp_Progress1.JPG"
