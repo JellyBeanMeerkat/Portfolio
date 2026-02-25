@@ -467,9 +467,7 @@ const CaseStudy = () => {
                 />
               </div>
             </div>
-            <div style={{ marginBottom: '12rem' }}></div>
-            <div className="bg-white rounded-2xl p-6 border-2 border-black">
-              <h3 className="text-xl font-bold text-black mb-2">Filters</h3>
+            <div style={{ marginBottom: '5rem' }}></div>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Filters used to narrow down options so the user only views relevant data, reducing decision fatigue and streamlining the booking process.
               </p>
@@ -495,9 +493,7 @@ const CaseStudy = () => {
                 />
               </div>
             </div>
-            <div style={{ marginBottom: '12rem' }}></div>
-            <div className="bg-white rounded-2xl p-6 border-2 border-black">
-              <h3 className="text-xl font-bold text-black mb-2">Interactive Map View</h3>
+            <div style={{ marginBottom: '5rem' }}></div>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Location-based map allows users to visualize hotel location relative to their destinations of interest.
               </p>
@@ -514,9 +510,7 @@ const CaseStudy = () => {
                 />
               </div>
             </div>
-            <div style={{ marginBottom: '12rem' }}></div>
-            <div className="bg-white rounded-2xl p-6 border-2 border-black">
-              <h3 className="text-xl font-bold text-black mb-2">Streamlined Checkout</h3>
+            <div style={{ marginBottom: '5rem' }}></div>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Four-step checkout process with progress indicator to keep user updated on the checkout progress.
               </p>
