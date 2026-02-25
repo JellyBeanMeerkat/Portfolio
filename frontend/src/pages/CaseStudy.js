@@ -467,7 +467,7 @@ const CaseStudy = () => {
                 />
               </div>
             </div>
-            <div style={{ marginBottom: '1.5rem' }}></div>
+            <div style={{ marginBottom: '2.5rem' }}></div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Filters</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
@@ -495,7 +495,7 @@ const CaseStudy = () => {
                 />
               </div>
             </div>
-            <div style={{ marginBottom: '1.5rem' }}></div>
+            <div style={{ marginBottom: '2.5rem' }}></div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Interactive Map View</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
@@ -514,7 +514,7 @@ const CaseStudy = () => {
                 />
               </div>
             </div>
-            <div style={{ marginBottom: '1.5rem' }}></div>
+            <div style={{ marginBottom: '2.5rem' }}></div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Streamlined Checkout</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
