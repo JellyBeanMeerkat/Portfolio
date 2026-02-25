@@ -446,17 +446,58 @@ const CaseStudy = () => {
                 Clear destination, date, and guest selection with intuitive date picker and dropdown menus.
               </p>
             </div>
+            {/* Simplified Search Images */}
+            <div className="flex justify-center gap-4 my-4">
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/yhuyqut3_Calendar.JPG"
+                  alt="Calendar Search Feature"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/1sesq0c8_Calendar2.JPG"
+                  alt="Guest Selection Feature"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+            </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Filters</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Filters used to narrow down options so the user only views relevant data, reducing decision fatigue and streamlining the booking process.
               </p>
             </div>
+            {/* Filters Images */}
+            <div className="flex justify-center gap-4 my-4">
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/tprwp5s0_Filter1.JPG"
+                  alt="Filter Feature - All Photos"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/hi6l2drw_Filter2.JPG"
+                  alt="Filter Feature - Bathroom"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+            </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Interactive Map View</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                Location-based search with interactive map allows users to visualize hotel locations 
-                relative to their destinations of interest.
+                Location-based map allows users to visualize hotel location relative to their destinations of interest.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
@@ -474,14 +515,14 @@ const CaseStudy = () => {
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <div className="flex justify-center mb-6">
               <div className="text-center">
-                <div className="font-bold text-black mb-2" style={{ fontSize: '34px' }}>50% less booking time</div>
+                <div className="font-bold text-black mb-2" style={{ fontSize: '34px' }}>50% less booking time*</div>
               </div>
             </div>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
-              The user who took part in earlier testing was invited back to test the prototype using a similar scenario as the one given when testing Traveloka and Agoda
+              *This impact was measured by the one tester who also took part in earlier usability testing
             </p>
             <p className="text-lg text-black" style={{ textAlign: 'justify' }}>
-              The user's booking time was cut down by 50% when compared to previous bookings at Traveloka and Agoda
+              When given a similar scenario to the Traveloka and Agoda usability testing, the user's booking time was cut down by 50%
             </p>
           </div>
         </section>
