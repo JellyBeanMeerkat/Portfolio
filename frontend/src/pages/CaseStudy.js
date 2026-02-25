@@ -370,23 +370,23 @@ const CaseStudy = () => {
           </div>
 
           {/* User Flow Images */}
-          <div className="grid grid-cols-2 gap-4 mb-4">
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+          <div className="flex justify-center gap-4 mb-4">
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '37.5%', height: '188px' }}>
               <img
                 src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/k4dvcfq4_UF1.JPG"
                 alt="User Flow 1"
                 className="w-full h-full object-contain"
                 loading="eager"
-                style={{ imageRendering: 'high-quality', minHeight: '250px' }}
+                style={{ imageRendering: 'high-quality' }}
               />
             </div>
-            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
+            <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '37.5%', height: '188px' }}>
               <img
                 src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/9jkyw9w3_UF2.JPG"
                 alt="User Flow 2"
                 className="w-full h-full object-contain"
                 loading="eager"
-                style={{ imageRendering: 'high-quality', minHeight: '250px' }}
+                style={{ imageRendering: 'high-quality' }}
               />
             </div>
           </div>
@@ -447,6 +447,12 @@ const CaseStudy = () => {
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
+              <h3 className="text-xl font-bold text-black mb-2">Filters</h3>
+              <p className="text-gray-700" style={{ textAlign: 'justify' }}>
+                Filters used to narrow down options so the user only views relevant data, reducing decision fatigue and streamlining the booking process.
+              </p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Interactive Map View</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Location-based search with interactive map allows users to visualize hotel locations 
@@ -459,12 +465,6 @@ const CaseStudy = () => {
                 Four-step checkout process with progress indicator to keep user updated on the checkout progress.
               </p>
             </div>
-            <div className="bg-white rounded-2xl p-6 border-2 border-black">
-              <h3 className="text-xl font-bold text-black mb-2">Filters</h3>
-              <p className="text-gray-700" style={{ textAlign: 'justify' }}>
-                Filters used to narrow down options so the user only views relevant data, reducing decision fatigue and streamlining the booking process.
-              </p>
-            </div>
           </div>
         </section>
 
@@ -474,7 +474,7 @@ const CaseStudy = () => {
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <div className="flex justify-center mb-6">
               <div className="text-center">
-                <div className="text-4xl font-bold text-black mb-2">50% less booking time</div>
+                <div className="font-bold text-black mb-2" style={{ fontSize: '34px' }}>50% less booking time</div>
               </div>
             </div>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
@@ -491,7 +491,8 @@ const CaseStudy = () => {
           <h2 className="text-3xl font-bold text-black mb-6">Reflection / Future Iterations</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
-              <li>The sample size of 1 for testing the prototype is too small to form a solid conclusion</li>
+              <li>The prototype was successful – the user could book a hotel with no issues and in half the time</li>
+              <li>However a sample size of 1 is too small to form a solid conclusion so a future testing session would include at least 10 people</li>
               <li>A future iteration would include a sign in option as 80% of those surveyed specified that they sign into a website when booking a hotel</li>
             </ol>
           </div>
