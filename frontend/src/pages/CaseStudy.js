@@ -72,9 +72,6 @@ const CaseStudy = () => {
             <h3 className="text-2xl font-bold text-black mb-4">Competitive Benchmarking</h3>
             <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
               <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                The Cambridge dictionary's definition of benchmarking is "the act of measuring the quality of something by comparing it with something else of an accepted standard"
-              </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I chose 3 competitor websites which primarily focus on hotel bookings.
               </p>
               <ol className="list-decimal text-lg text-black space-y-2 ml-8 mb-4" style={{ textAlign: 'justify' }}>
@@ -82,9 +79,6 @@ const CaseStudy = () => {
                 <li><span className="font-bold">Agoda.com</span> – a website which focuses on hotel bookings and add on features such as SIM cards and card rentals</li>
                 <li><span className="font-bold">Marriott.com</span> – a website which caters specifically to Marriott hotels worldwide</li>
               </ol>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                I went through the process of booking a hotel on all 3 websites by taking screenshots of every page up to the payment page, alongside an analysis of their strategies, strengths and weaknesses.
-              </p>
               <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
                 My goal was to find out how my competitors complete the booking process and how I could make the process more efficient with my booking site.
               </p>
@@ -132,7 +126,7 @@ const CaseStudy = () => {
                 <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
                   <li>Booking panel at the top of the page with user information to remind user at every step</li>
                   <li>An obvious search button</li>
-                  <li>Filters so the user can customize their stay</li>
+                  <li>Filters so the user only views relevant data</li>
                   <li>Map version of the results</li>
                 </ol>
               </div>
@@ -149,18 +143,21 @@ const CaseStudy = () => {
               <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I used online surveys for a mix of evaluative research and generative research; to find out the user's goals, mental models, and experiences.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                For my survey, I composed both closed and open questions. The closed questions allowed me to find out which features were popular or unpopular, through quantitative responses. The qualitative responses from open questions, allowed me to gain a deeper understanding of hotel bookings, including aspects which I hadn't considered, but were important to the user.
+              <p className="text-lg text-black leading-relaxed mb-2" style={{ textAlign: 'justify' }}>
+                <span className="underline font-bold">Survey Priorities</span>
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                I double checked that the questions asked within the survey were GDPR compliant – I didn't ask identifiable questions as this would require the data to be securely processed using a manner such as encryption. I asked questions which were relevant and limited to what was necessary for me to conduct my research.
+              <ul className="list-disc list-inside text-lg text-black space-y-1 ml-4 mb-4">
+                <li>Open questions for qualitative data</li>
+                <li>Closed questions for quantitative data</li>
+                <li>GDPR compliant</li>
+                <li>Accessible platform for survey distribution</li>
+              </ul>
+              <p className="text-lg text-black leading-relaxed mb-2" style={{ textAlign: 'justify' }}>
+                <span className="underline font-bold">Analysis</span>
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                Before sending out my questions to potential users, I considered accessibility. According to Recite Me, 20% of the UK population requires assistive technology to access the internet. I didn't want there to be any barriers to entry so I chose Typeform to create and distribute my surveys. Typeform's default screen is WCAG 2.1, Level AA compliant and there is also an accessibility checker located within the form creation screen.
-              </p>
-              <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
-                Once I had received all survey responses, I compiled the data and presented it into a user-friendly format using Microsoft PowerPoint. I used a bar chart to clearly display both the quantitative and qualitative data I obtained. Each slide included summarisation of the findings.
-              </p>
+              <ul className="list-disc list-inside text-lg text-black space-y-1 ml-4">
+                <li>PowerPoint including summarisation of findings</li>
+              </ul>
             </div>
 
             {/* Embedded PowerPoint for Online Surveys */}
@@ -219,20 +216,30 @@ const CaseStudy = () => {
             <h3 className="text-2xl font-bold text-black mb-4">Usability Testing</h3>
             <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
               <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                I chose usability testing for evaluative research, to find out what people are clicking on and what their pain points were.
-              </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
                 I both conducted usability testing and took notes from a recording of usability testing performed by another person.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                Prior to my own usability session, I sent the user a consent form detailing how their data would be processed in compliance with GDPR and the setup of the testing session, along with contact details in case the user had any questions or concerns. The form also included a section for access needs so adjustments could be made to make the session easier and inclusive for them.
+              <p className="text-lg text-black leading-relaxed mb-2" style={{ textAlign: 'justify' }}>
+                <span className="underline font-bold">Before Test Day</span>
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-                On the day of the session, I presented the user a scenario and website URL and watched as the user navigated through a website to complete their task. I encouraged the user to think aloud and when I interjected to ask questions, I made sure they were not leading questions and completely neutral to avoid a wording bias.
+              <ul className="list-disc list-inside text-lg text-black space-y-1 ml-4 mb-4">
+                <li>Sent user consent form</li>
+              </ul>
+              <p className="text-lg text-black leading-relaxed mb-2" style={{ textAlign: 'justify' }}>
+                <span className="underline font-bold">During the Test</span>
               </p>
-              <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
-                Once the testing session had completed, I ran the recordings through a transcriber and rewatched the sessions. I took note of any actions the user could easily conduct and any challenges they stumbled across. I also made a note of quotes the user made to express themselves.
+              <ul className="list-disc list-inside text-lg text-black space-y-1 ml-4 mb-4">
+                <li>Presented a scenario and website URL</li>
+                <li>Encouraged the user to think aloud</li>
+                <li>I asked open questions</li>
+              </ul>
+              <p className="text-lg text-black leading-relaxed mb-2" style={{ textAlign: 'justify' }}>
+                <span className="underline font-bold">After the Test</span>
               </p>
+              <ul className="list-disc list-inside text-lg text-black space-y-1 ml-4">
+                <li>Played recordings through transcriber</li>
+                <li>Rewatched sessions</li>
+                <li>Took notes including quotes from the user</li>
+              </ul>
             </div>
 
             {/* Usability Testing Screenshot 1 - Agoda */}
@@ -308,10 +315,7 @@ const CaseStudy = () => {
           <h3 className="text-2xl font-bold text-black mb-4">Affinity Diagram</h3>
           <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
             <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-              I used triangulation to compile the unstructured data from all three research methods, and put these into an affinity diagram using Post-it notes in Miro. This allowed me to structure the data into its natural relationships and identify patterns. I created various groups such as "Mental Map" and "Search Results" and within those groups I split the data even further into sub-groups such as "Features which confused the User" and "User Goals". These groups made the data easier to understand and analyse which allowed me to identify patterns and draw conclusions.
-            </p>
-            <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
-              With the structured data I could see points of repetition such as liking the map feature and being confused with lack of filters. These patterns were important to me as I wanted to create a product which would be easy to use and follow the mental model of my target market.
+              I triangulated the results of previous research using an affinity map to structure the data into its natural relationships and identify patterns.
             </p>
             <p className="text-lg text-black leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
               From here I could see the most common pain points for the user:
@@ -319,13 +323,13 @@ const CaseStudy = () => {
             <ul className="list-disc list-inside text-lg text-black space-y-2 ml-4">
               <li>Lack of filters</li>
               <li>Lack of signposting</li>
-              <li>Unclear payment information</li>
+              <li>Unclear information</li>
             </ul>
           </div>
 
           {/* Affinity Diagram Images */}
           <div className="flex justify-center mb-4">
-            <div className="grid grid-cols-2 gap-4" style={{ width: '56%', height: '338px' }}>
+            <div className="grid grid-cols-2 gap-4" style={{ width: '56%', height: '220px' }}>
               <div className="bg-white rounded-2xl border-2 border-black overflow-hidden">
                 <img
                   src="https://customer-assets.emergentagent.com/job_ux-portfolio-hub-3/artifacts/rsdyynvz_Aff1.JPG"
@@ -361,7 +365,7 @@ const CaseStudy = () => {
           <h3 className="text-2xl font-bold text-black mb-4">User Flow</h3>
           <div className="bg-white rounded-2xl p-8 border-2 border-black mb-6">
             <p className="text-lg text-black leading-relaxed" style={{ textAlign: 'justify' }}>
-              I created a visual roadmap of the user's journey using the perfect path for a user to complete a hotel booking. I used the data obtained from previous research methods to create an intuitive interface.
+              I created a visual roadmap of the user's journey using the perfect path for a user to complete a hotel booking. This allowed me to create an intuitive interface.
             </p>
           </div>
 
@@ -408,7 +412,7 @@ const CaseStudy = () => {
               Using the data from the aforementioned research methods, I designed a streamlined booking experience that prioritizes transparency, ease of use, and visual appeal.
             </p>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
-              I drew each screen state using pen and paper then scanned them into Figma.{' '}
+              I drew each screen state using pen and paper and scanned this into Figma.{' '}
               <a href="https://www.figma.com/board/cD2JgmqF41K7lsxrdFQsWz/SharisseCole_Screen_States?t=dAB653THRgwtSetG-1" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:opacity-70 transition-opacity">
                 See Interaction Design
               </a>
@@ -455,6 +459,12 @@ const CaseStudy = () => {
                 Four-step checkout process with progress indicator to keep user updated on the checkout progress.
               </p>
             </div>
+            <div className="bg-white rounded-2xl p-6 border-2 border-black">
+              <h3 className="text-xl font-bold text-black mb-2">Filters</h3>
+              <p className="text-gray-700" style={{ textAlign: 'justify' }}>
+                Filters used to narrow down options so the user only views relevant data, reducing decision fatigue and streamlining the booking process.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -464,15 +474,14 @@ const CaseStudy = () => {
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
             <div className="flex justify-center mb-6">
               <div className="text-center">
-                <div className="text-4xl font-bold text-black mb-2">4.8/5</div>
-                <p className="text-gray-700">User Satisfaction Rating</p>
+                <div className="text-4xl font-bold text-black mb-2">50% less booking time</div>
               </div>
             </div>
             <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
-              The user who initially partook in the usability testing was invited back to test the prototype.
+              The user who took part in earlier testing was invited back to test the prototype using a similar scenario as the one given when testing Traveloka and Agoda
             </p>
             <p className="text-lg text-black" style={{ textAlign: 'justify' }}>
-              The redesigned booking system received overwhelmingly positive feedback from the user and he was able to easily book a room based upon the given criteria.
+              The user's booking time was cut down by 50% when compared to previous bookings at Traveloka and Agoda
             </p>
           </div>
         </section>
@@ -481,12 +490,10 @@ const CaseStudy = () => {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-black mb-6">Reflection / Future Iterations</h2>
           <div className="bg-white rounded-2xl p-8 border-2 border-black">
-            <p className="text-lg text-black mb-4" style={{ textAlign: 'justify' }}>
-              <span className="font-bold">User research is essential:</span> Direct feedback from target users revealed pain points that weren't initially obvious and the mental model of the user when booking a hotel. This information shaped the final design direction and resulted in the user being able to book a hotel without hinderance.
-            </p>
-            <p className="text-lg text-black" style={{ textAlign: 'justify' }}>
-              In a future iteration I would add additional payment options as the user mentioned during testing that he would like to pay via PayPal. I would also add an option for a user to sign in as 80% of those surveyed specified that they sign into a website when booking a hotel.
-            </p>
+            <ol className="list-decimal text-lg text-black space-y-2 ml-8" style={{ textAlign: 'justify' }}>
+              <li>The sample size of 1 for testing the prototype is too small to form a solid conclusion</li>
+              <li>A future iteration would include a sign in option as 80% of those surveyed specified that they sign into a website when booking a hotel</li>
+            </ol>
           </div>
         </section>
 
