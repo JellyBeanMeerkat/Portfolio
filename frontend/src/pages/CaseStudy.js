@@ -55,7 +55,7 @@ const CaseStudy = () => {
             <ul className="list-disc list-inside text-lg text-black space-y-2 ml-4">
               <li>Lack of filters</li>
               <li>Lack of signposting</li>
-              <li>Unclear payment information</li>
+              <li>Unclear information</li>
             </ul>
           </div>
         </section>
