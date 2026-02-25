@@ -500,11 +500,44 @@ const CaseStudy = () => {
                 Location-based map allows users to visualize hotel location relative to their destinations of interest.
               </p>
             </div>
+            {/* Map Image */}
+            <div className="flex justify-center my-4">
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '70%', height: '400px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/49myp41c_Map.JPG"
+                  alt="Interactive Map View Feature"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+            </div>
             <div className="bg-white rounded-2xl p-6 border-2 border-black">
               <h3 className="text-xl font-bold text-black mb-2">Streamlined Checkout</h3>
               <p className="text-gray-700" style={{ textAlign: 'justify' }}>
                 Four-step checkout process with progress indicator to keep user updated on the checkout progress.
               </p>
+            </div>
+            {/* Progress Images */}
+            <div className="flex justify-center gap-4 my-4">
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/3bmi91cp_Progress1.JPG"
+                  alt="Checkout Step 1 - Customer Information"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
+              <div className="bg-white rounded-2xl border-2 border-black overflow-hidden" style={{ width: '48%', height: '280px' }}>
+                <img
+                  src="https://customer-assets.emergentagent.com/job_aa39e269-52f6-4c85-a37e-cbf455b03d24/artifacts/2ges60tp_Progress2.JPG"
+                  alt="Checkout Step 3 - Payment Information"
+                  className="w-full h-full object-contain"
+                  loading="eager"
+                  style={{ imageRendering: 'high-quality' }}
+                />
+              </div>
             </div>
           </div>
         </section>
